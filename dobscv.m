@@ -6,7 +6,7 @@
 
 
 function cv = dobscv(x, y, n)
-%DOBSCV - Distance-Based Stratified Cross-Validation
+%DOBSCV - Distribution-Balanced Stratified Cross-Validation (DB-SCV)
 %
 % This function partitions data into `n` folds, ensuring that each fold:
 % 1. Contains approximately equal samples from each class.
