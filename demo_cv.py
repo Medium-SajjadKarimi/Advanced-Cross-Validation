@@ -58,7 +58,7 @@ kf = KFold(n_splits=5, shuffle=False)
 perform_cv(kf, "K-Fold Cross-Validation")
 
 # Stratified K-Fold
-skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=0)
 perform_cv(skf, "Stratified K-Fold Cross-Validation")
 
 import numpy as np
